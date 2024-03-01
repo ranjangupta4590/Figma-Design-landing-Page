@@ -84,7 +84,7 @@ const Hostings = () => {
                 data.map((obj, index) => {
                     return <div key={index} className='h-auto relative py-10  '>
                         <Best bestChoice={obj?.best_choice} bestValue={obj?.best_value} />
-                        <h2 className='absolute h-9 w-9 md:top-10 top-5 -left-5 border-2 bg-white border-[#E1E4E6] rounded-full flex items-center justify-center text-[#626E79] '>{index + 1}</h2>
+                        <h2 className='absolute h-9 w-9 md:top-[4.5rem] top-5 -left-5 border-2 bg-white border-[#E1E4E6] rounded-full flex items-center justify-center text-[#626E79] '>{index + 1}</h2>
 
                         {/* main */}
                         <div className='h-full grid grid-cols-9 bg-white pb-3'>
