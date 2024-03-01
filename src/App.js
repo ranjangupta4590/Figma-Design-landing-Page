@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Nav1 from './component/Nav1';
+import Navbar from './component/Navbar';
+import Hostings from './component/Hostings';
+import Deals from './component/Deals';
+import Footer from './component/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=' justify-center '>
+        <Nav1 />
+      <div className='bg-[#FBFCFD] w-full lg:w-[1024px] mx-auto sm:px-10 px-5 lg:px-0'>
+        <Navbar />
+        <Hostings />
+        <Deals />
+      </div>
+        <Footer />
     </div>
   );
 }
