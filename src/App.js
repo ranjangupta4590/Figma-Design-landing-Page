@@ -8,9 +8,9 @@ import Footer from './component/Footer';
 
 function App() {
   return (
-    <div className=' justify-center '>
+    <div className=''>
         <Nav1 />
-      <div className='bg-[#FBFCFD] w-full lg:w-[1024px] mx-auto sm:px-10 px-5 lg:px-0'>
+      <div className='bg-[#FBFCFD] w-full lg:w-[1024px] mx-auto sm:px-[2rem] lg:px-4'>
         <Navbar />
         <Hostings />
         <Deals />

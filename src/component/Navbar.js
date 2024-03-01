@@ -41,7 +41,7 @@ const Navbar = () => {
             </div>
             
             <div className="flex flex-row justify-start mb-2 my-3 pl-5">
-                <ul className='flex flex-row gap-8'>
+                <ul className='flex flex-row gap-[1rem] pr-2'>
                     {bottomNav.map((data, i) => (
                         <li
                             key={i}
