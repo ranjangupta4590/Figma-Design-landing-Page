@@ -35,7 +35,7 @@ const Navbar = () => {
                         </ul>
 
                     </div>
-                    <div className='flex justify-end right-12 '><li className='flex'>Top Relevant<FaAngleDown className='h-4 w-4' /></li></div>
+                    <div className='flex justify-end  py-2 '><li className='flex'>Top_Relevant<FaAngleDown className='h-4 w-4 mt-1 pl-1' /></li></div>
                 </div>
                 <hr className='text-[#E1E4E6] h-px w-full' />
             </div>

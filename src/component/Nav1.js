@@ -12,7 +12,7 @@ const Nav1 = () => {
 
     return (
         <>
-            <header className="bg-black w-full ">
+            <header className="bg-black w-full sm:w-full">
                 <div className=' mx-auto flex justify-center items-center'>
                     <div className=' flex  flex-row md:gap-5 justify-center items-center text-center'>
                         <div className="flex mx-auto items-start justify-start md:ml-[0] md:mt-0 p-3 rounded-lg w-1/4 md:w-full">
