@@ -10,7 +10,7 @@ function App() {
   return (
     <div className=''>
         <Nav1 />
-      <div className='bg-[#FBFCFD] w-full lg:w-[1024px] mx-auto sm:px-[2rem] lg:px-4'>
+      <div className='element bg-[#FBFCFD] sm:w-[100%] w-full lg:w-[1000px] mx-auto sm:px-[2rem] lg:px-4'>
         <Navbar />
         <Hostings />
         <Deals />
